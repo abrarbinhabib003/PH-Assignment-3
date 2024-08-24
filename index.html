@@ -26,19 +26,19 @@
             theme: {
                 extend: {
                     colors: {
-                        primary: 'rgb(171,239, 95)',
-                        secondary: 'rgb(17, 17, 17)',
-                        body: 'rgb(248, 246, 243)',
-                        accent: 'rgb(106, 151, 57)',
-                        body_neutral: 'rgb(51, 51, 51)',
+                     
+                     
+                     
+                     
+                     
                     },
                     fontFamily: {
                         Poppins: 'Poppins',
                     },
                     backgroundImage: {
-                        discuss: "url('./assets/bg.jpg')",
-                        call_to_action: "url('./images/call.jpg')",
-                        testimonials: "url('./images/testimonials.jpg')",
+                       
+                       
+                       
                     },
                 },
             },
@@ -46,14 +46,16 @@
     </script>
 </head>
 
-<body class="font-Poppins">
+<body class="font-Poppins max-w-11/12 mx-auto">
     <!-- banner section start -->
     <header>
         <!-- nav bar section start -->
         <nav class="navbar w-10/12 mx-auto">
             <div class="navbar-start w-[200px] text-xl ">
-               
-                    <i class="fa-solid fa-arrow-right -rotate-45"></i>
+               <div class="w-7 h-7 bg-green-500 rounded-full text-center">
+                <i class="fa-solid fa-arrow-right -rotate-45 "></i>
+               </div>
+                    
                     <h1 class="font-bold">Rinterio</h1>
                
             </div>
@@ -76,40 +78,103 @@
                     </li>
                 </ul>
             </div>
-            <div class="navbar-end gap-5 items-center  ">
-                <div class="flex gap-5 text-lg ">
-                    <button class=" lg:flex items-center gap-2 font-semibold text-accent sm:hidden">
-                        <i class="fa-solid fa-magnifying-glass bg=green-500"></i>
-                        <i class="fa-solid fa-cart-shopping "></i>
-                        <a class="btn bg-green-500 text-black ">Login <i class="fa-solid fa-arrow-right -rotate-45"></i></a>
-                    </button>
-                   
+           
+            <!--End-->
 
-                </div>
-                <div class="dropdown">
-                    <div tabindex="0" role="button" class="btn btn-ghost lg:hidden bg-primary text-lg">
-                        <i class="fa-solid fa-bars"></i>
-                        
-                    </div>
-                    <ul tabindex="0"
-                        class="menu menu-sm dropdown-content bg-base-100 rounded-box z-[1] mt-3 w-52 right-0 p-2 shadow text-lg font-medium gap-5">
-                        <li class="hover:text-primary transition-colors ease-in-out duration-300">
-                            <a href="#">Home</a>
-                        </li>
-                        <li class="hover:text-primary transition-colors ease-in-out duration-300">
-                            <a href="#">Everything</a>
-                        </li>
-                        <li class="hover:text-primary transition-colors ease-in-out duration-300">
-                            <a href="#">Groceries</a>
-                        </li>
-                        <li class="hover:text-primary transition-colors ease-in-out duration-300">
-                            <a href="#">About</a>
-                        </li>
-                        <li class="hover:text-primary transition-colors ease-in-out duration-300">
-                            <a href="#">Contact</a>
-                        </li>
-                    </ul>
-                </div>
+            <div class="navbar-end gap-5 items-center">
+              <div class="lg:flex gap-5 text-lg hidden lg:block"> <!-- Hidden on small screens -->
+                  <button class="lg:flex items-center gap-2 font-semibold">
+                      <div class="w-8 h-8 bg-base-200 border-2 rounded-full">
+                          <i class="fa-solid fa-magnifying-glass"></i>
+                      </div>
+                      <div class="w-8 h-8 bg-base-200 border-2 rounded-full">
+                          <i class="fa-solid fa-cart-shopping"></i>
+                      </div>
+                      <a class="btn bg-green-500 text-black">Login
+                          <div class="w-9 h-9 bg-slate-800 rounded-full p-2 text-white">
+                              <i class="fa-solid fa-arrow-right -rotate-45"></i>
+                          </div>
+                      </a>
+                  </button>
+              </div>
+              <div class="dropdown">
+                  <div tabindex="0" role="button" class="btn btn-ghost lg:hidden bg-green-300 text-lg">
+                      <i class="fa-solid fa-bars"></i>
+                  </div>
+                  <ul tabindex="0"
+                      class="menu menu-sm dropdown-content bg-base-100 rounded-box z-[1] mt-3 w-52 right-0 p-2 shadow text-lg font-medium">
+                      <li class="hover:text-primary transition-colors ease-in-out duration-300">
+                          <a href="#">Home</a>
+                      </li>
+                      <li class="hover:text-primary transition-colors ease-in-out duration-300">
+                          <a href="#">Everything</a>
+                      </li>
+                      <li class="hover:text-primary transition-colors ease-in-out duration-300">
+                          <a href="#">Groceries</a>
+                      </li>
+                      <li class="hover:text-primary transition-colors ease-in-out duration-300">
+                          <a href="#">About</a>
+                      </li>
+                      <li class="hover:text-primary transition-colors ease-in-out duration-300">
+                          <a href="#">Contact</a>
+                      </li>
+                  </ul>
+              </div>
+          </div>
+          
+           
+
+           
+           
+           
+           
+           
+           
+           
+           
+           
+           
+           
+           
+           
+           
+           
+           
+           
+           
+           
+           
+           
+           
+           
+           
+           
+
+           
+           
+           
+           
+           
+           
+           
+          
+           
+           
+           
+           
+           
+           
+           
+           
+           
+           
+           
+           
+           
+           
+           
+           
+           
             </div>
         </nav>
     </header>
@@ -127,7 +192,11 @@
           Provident cupiditate voluptatem et in. Quaerat fugiat ut assumenda excepturi exercitationem
           quasi. In deleniti eaque aut repudiandae et a id nisi.
         </p>
-        <button class="btn bg-green-300  rounded-2xl  ">  View Details <i class="fa-solid fa-arrow-right -rotate-45"></i></button>
+        <button class="btn bg-green-300  rounded-2xl  ">  View 
+          <div class="w-7 h-7 bg-green-500 rounded-full mx-auto p-2">
+            <i class="fa-solid fa-arrow-right -rotate-45 "></i>
+           </div>
+        </button>
       </div>
     </div>
   </div>
@@ -143,7 +212,7 @@
         
        <img
         src="./assets/Rectangle.png"
-        class="max-w-lg rounded-lg shadow-2xl" /> 
+        class="max-w-md rounded-lg shadow-2xl" /> 
       <div class="flex flex-col">
         
         <h1 class="text-5xl font-bold">We design thoughtful, liveable spaces</h1>
@@ -187,7 +256,10 @@
   </div>
 </main>
 <!--Work Process-->
-<section class="  w-11/12 mx-auto bg-base-200">
+<section class="  bg-base-200">
+  <div class=" w-11/12 mx-auto">
+
+  
   <div class="text-center">
        <div>
           <button class="btn bg-white  rounded-2xl "> <i class="fa-solid fa-arrow-right "></i> About Us<button>
@@ -201,7 +273,7 @@
          featuring weathered wood, sleek metal accents.
         </p>
       </div>
-      <div class="grid grid-cols-1 lg:grid-cols-4 gap-4 mb-5">
+      <div class="grid grid-cols-1 lg:grid-cols-4 gap-4 mb-4 pb=4 w-11/12 mx-auto">
 <div class="col-span-1 bg-pink-400 p-4">
 <img src="./assets/concept.png" alt="">
 <h1 class="font-bold">Concept</h1>
@@ -234,16 +306,17 @@
         and modern</p>
       </div>
       </div>
+    </div>
 </section>
 <!--Projects-->
 <section class="w-11/12 mx-auto">
 <div class="text-center">
      <div>
-        <button class="btn bg-green-400  rounded-2xl "> <i class="fa-solid fa-arrow-right "></i> About Us<button>
+        <button class="btn bg-green-200  rounded-2xl "> <i class="fa-solid fa-arrow-right "></i> Our Latest Portfolio<button>
      </div>
    
         <br>
-      <h1 class="mb-5 text-5xl font-bold text-black">Let’s Discuss Next Project</h1>
+      <h1 class="mb-5 text-5xl font-bold text-black">Our Latest Portfolio</h1>
       <br>
       <p class="mb-5 text-black">
        The barn house captivates with its blend of rustic charm and modern sophistication,
@@ -262,25 +335,20 @@
       <p>The barn house captivates
         with its blend of rustic charm
         and modern</p>
-        <button class="btn bg-green-400  rounded-2xl "> <i class="fa-solid fa-arrow-right "></i> About Us</button>
+        <button class="btn  rounded-2xl ">
+  
+  
+          View Details
+         <div class="w-7 h-7 bg-green-300 rounded-full mx-auto p-2">
+          <i class="fa-solid fa-arrow-right -rotate-45 "></i></div></button>
+        
+        
+        
       </div>
     </div>
  
  
- 
-
- 
- 
- 
- 
- 
- 
- 
- 
- 
- 
-
-   </div>
+</div>
 <!--2--> <div class="col-span-2 border-solid border-base-400 border-2 rounded-lg">
   <div class="border-3 p-7">
 <img src="./assets/img2.png" alt="">
@@ -303,7 +371,12 @@
     <div>
     <h1 class="font-bold">Supervision</h1>
     <p>The barn house captivates with <br> its blend of <br> rustic charm and modern</p>
-      <button class="btn bg-green-400  rounded-2xl "> <i class="fa-solid fa-arrow-right "></i> About Us</button>
+    <button class="btn  rounded-2xl ">
+     
+     
+        View Details
+       <div class="w-7 h-7 bg-green-300 rounded-full mx-auto p-2">
+        <i class="fa-solid fa-arrow-right -rotate-45 "></i></div></button>
     </div>
   </div>
 </div>
@@ -315,86 +388,7 @@
   </div>
 </div>
   
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-
-
-  
-  
-  
-  
-  
-  
-  
-
-  
-  
-
-  
-  
-  
-  
-  
-  
-  
-  
-
-
-
-
-
-
-
-
-
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-   
-
-   </section>
+ </section>
 <!--Unique Section FAQ-->
 
 <div >
@@ -406,30 +400,30 @@
 
 <div class="collapse collapse-arrow bg-blue-200 w-11/12 mx-auto">
     <input type="radio" name="my-accordion-2" checked="checked" />
-    <div class="collapse-title text-xl font-medium">Click to open this one and close others</div>
+    <div class="collapse-title text-xl font-medium">How can I read more about interior design through Rinterio?</div>
     <div class="collapse-content">
-      <p>hello</p>
+      <p>To explore more about interior design, visit the “Read Our Articles and News” section on the Rinterio website. There, you’ll find articles related to interior design that can provide valuable insights</p>
     </div>
   </div>
   <div class="collapse collapse-arrow bg-pink-200 w-11/12 mx-auto">
     <input type="radio" name="my-accordion-2" />
-    <div class="collapse-title text-xl font-medium">Click to open this one and close others</div>
+    <div class="collapse-title text-xl font-medium">How do I contact Rinterio to discuss a potential project?</div>
     <div class="collapse-content">
-      <p>hello</p>
+      <p>If you’re interested in discussing a project, head to the “Let’s Discuss Next Project” section. Fill out the form with your name, email, phone number, and project details, and Rinterio will be in touch</p>
     </div>
   </div>
   <div class="collapse collapse-arrow bg-orange-200 w-11/12 mx-auto">
     <input type="radio" name="my-accordion-2" />
-    <div class="collapse-title text-xl font-medium">Click to open this one and close others</div>
+    <div class="collapse-title text-xl font-medium">What type of projects are featured in Rinterio’s latest portfolio?</div>
     <div class="collapse-content">
-      <p>hello</p>
+      <p>Rinterio’s latest portfolio showcases various interior design projects, including residential spaces like living rooms and commercial spaces such as office interiors</p>
     </div>
   </div>
 </div> 
 <!--Chat-->
 
 <div class="mt-10">
-    <h1 class="text-center font-bold text-4xl text-orange-950">Let's Talk!</h1>
+    <h1 class="text-center font-bold text-4xl text-orange-950"> Let's Talk??</h1>
 </div>
 <div class="chat chat-start">
     <div class="chat-bubble chat-bubble-primary">Can I ask More Questions?</div>
@@ -441,7 +435,7 @@
  
   <div class="chat chat-start">
     <div class="chat-bubble chat-bubble-accent">
-      That's never been done in the history of the Jedi. It's insulting!
+      Do You Have Discounts For First Customers??
     </div>
   </div>
   <div class="chat chat-end">
@@ -454,7 +448,7 @@
  
  
   <div class="chat chat-end">
-    <div class="chat-bubble chat-bubble-error">It's never happened before.</div>
+    <div class="chat-bubble chat-bubble-error">Yes. Contact Us For Coupon Code!</div>
   </div>
  <!--Discuss-->
 <div
@@ -468,7 +462,7 @@
    
    
     <div class="max-w-11/12">
-        <button class="btn bg-white  rounded-2xl "> <i class="fa-solid fa-arrow-right "></i> About Us</button>
+        <button class="btn bg-green-300  rounded-2xl "> <i class="fa-solid fa-arrow-right "></i> Let's Connect</button>
       <h1 class="mb-5 text-5xl font-bold text-black">Let’s Discuss Next Project</h1>
       <p class="mb-5 text-black">
        The barn house captivates with its blend of rustic charm and modern sophistication,
@@ -495,8 +489,11 @@
 
    <div>
     
-    <button class="btn bg-green-400  rounded-2xl mt-5  ">  Send Email <i class="fa-solid fa-arrow-right 
-        -rotate-45"></i></button>
+    <button class="btn bg-green-400  rounded-2xl mt-5  ">  Send Email 
+      <div class="w-9 h-9 bg-slate-800 rounded-full p-2 
+      text-white">
+         <i class="fa-solid fa-arrow-right -rotate-45 "></i>
+        </div></button>
    </div>
    
    
@@ -528,7 +525,10 @@
 
     <div class=" max-w-[600px] text-xl text-white flex items-center justify-center">
      
-        <i class="fa-solid fa-arrow-right -rotate-45"></i>
+      <div class="w-9 h-9 bg-green-600 rounded-full p-2 
+      text-white">
+         <i class="fa-solid fa-arrow-right -rotate-45 "></i>
+        </div>
         <span>Rinterio</span>
    
 </div>
@@ -542,7 +542,12 @@
       <a class="link link-hover">Contact</a>
     </nav>
     <div>
-        <button class="btn bg-green-300  rounded-2xl  ">  View Details <i class="fa-solid fa-arrow-right -rotate-45"></i></button>
+        <button class="btn bg-green-300  rounded-2xl  ">  Book Consult 
+          <div class="w-9 h-9 bg-slate-800 rounded-full p-2 
+          text-white">
+             <i class="fa-solid fa-arrow-right -rotate-45 "></i>
+            </div>
+        </button>
     </div>
    
       
